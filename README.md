@@ -63,7 +63,7 @@ This portfolio documents my progress through a Python programming course designe
 - **Email:** 26boynef@bscmail.org
 
 ## Unit converter
-
+```python
 def km_to_miles(km):
     """Convert kilometres to miles."""
     miles = km * 0.621371
@@ -117,6 +117,5 @@ def main():
 
     else:
         print("Invalid choice. Please enter a number from 1 to 4.")
-
-# Run the program
 main()
+```

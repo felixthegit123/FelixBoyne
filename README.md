@@ -63,7 +63,7 @@ This portfolio documents my progress through a Python programming course designe
 - **Email:** 26boynef@bscmail.org
 
 ## Unit converter
-"This is the first project I did which converts units"
+This is the first project I did which converts units.
 ```python
 def km_to_miles(km):
     """Convert kilometres to miles."""

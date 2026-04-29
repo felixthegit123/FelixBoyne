@@ -301,7 +301,6 @@ class BankAccount:
         print(f"  Current balance: £{self.balance:.2f}")
 
 
-# --- Using the class ---
 def main():
     name = input("Enter account holder name: ")
     opening = float(input("Enter opening balance: £"))

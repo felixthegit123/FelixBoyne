@@ -120,6 +120,9 @@ def main():
         print("Invalid choice. Please enter a number from 1 to 4.")
 main()
 ```
+This image shows the result of the code.
+<img width="156" height="78" alt="{3A142E52-17AE-4E0A-A2EE-118503C571A8}" src="https://github.com/user-attachments/assets/5a8083e5-1ea9-4917-969f-fd209ffe91c3" />
+
 ## Number guessing game
 ```python 
 import random

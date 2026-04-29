@@ -211,8 +211,9 @@ This is an example of me noting down my maths homework as a task and then recall
 
 ## Grade calculator
 This is a grade calculator which let me put all of my results into the system which then gave me my average grade so I can see what I am working to across multiple subjects.
+
 def get_grade(average):
-    """Return a letter grade based on average percentage."""
+"""Return a letter grade based on average percentage."""
     if average >= 70:
         return "A"
     elif average >= 60:

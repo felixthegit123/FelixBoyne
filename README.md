@@ -149,6 +149,9 @@ def play_game():
 
 play_game()
 ```
+This is a picture from the result of the guessing game which took me 5 tries.
+<img width="164" height="88" alt="{68B067E3-FA08-4542-A03D-6FAA10E7BABC}" src="https://github.com/user-attachments/assets/8034dfbc-7600-46b5-83c2-6a996af18fef" />
+
 ## To-do list manager
 ```python 
 def show_tasks(tasks):

@@ -124,6 +124,7 @@ This image shows the result of the code.
 <img width="156" height="78" alt="{3A142E52-17AE-4E0A-A2EE-118503C571A8}" src="https://github.com/user-attachments/assets/5a8083e5-1ea9-4917-969f-fd209ffe91c3" />
 
 ## Number guessing game
+This is a game where you can guess a random number between 1 and 100 which can be used to have some fun with you friends to see who guesses first.
 ```python 
 import random
 

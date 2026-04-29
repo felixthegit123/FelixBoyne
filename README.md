@@ -300,35 +300,34 @@ class BankAccount:
             print(f"  {t}")
         print(f"  Current balance: £{self.balance:.2f}")
 
-
-def main():
-    name = input("Enter account holder name: ")
-    opening = float(input("Enter opening balance: £"))
+    def main():
+        name = input("Enter account holder name: ")
+        opening = float(input("Enter opening balance: £"))
     
-    account = BankAccount(name, opening)
+        account = BankAccount(name, opening)
     
-    while True:
-        print("\n1. Deposit")
-        print("2. Withdraw")
-        print("3. Check balance")
-        print("4. View history")
-        print("5. Exit")
+        while True:
+            print("\n1. Deposit")
+            print("2. Withdraw")
+            print("3. Check balance")
+            print("4. View history")
+            print("5. Exit")
         
-        choice = input("Choose: ")
+            choice = input("Choose: ")
         
-        if choice == "1":
-            amount = float(input("Amount to deposit: £"))
-            account.deposit(amount)
-        elif choice == "2":
-            amount = float(input("Amount to withdraw: £"))
-            account.withdraw(amount)
-        elif choice == "3":
-            account.show_balance()
-        elif choice == "4":
-            account.show_history()
-        elif choice == "5":
-            print("Thank you for banking with us.")
-            break
+            if choice == "1":
+                amount = float(input("Amount to deposit: £"))
+                account.deposit(amount)
+            elif choice == "2":
+                amount = float(input("Amount to withdraw: £"))
+                account.withdraw(amount)
+            elif choice == "3":
+                account.show_balance()
+            elif choice == "4":
+                account.show_history()
+            elif choice == "5":
+                print("Thank you for banking with us.")
+                break
 
 main()
 This is a picture showing how the account organiser keeps track of my finances.

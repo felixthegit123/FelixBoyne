@@ -153,6 +153,7 @@ This is a picture from the result of the guessing game which took me 5 tries.
 <img width="164" height="88" alt="{68B067E3-FA08-4542-A03D-6FAA10E7BABC}" src="https://github.com/user-attachments/assets/8034dfbc-7600-46b5-83c2-6a996af18fef" />
 
 ## To-do list manager
+I created a to-do list because it was useful for me to remember what I have to do and it is very quick and easy to add and remove tasks to the list.
 ```python 
 def show_tasks(tasks):
     """Display all tasks with their numbers."""
@@ -205,3 +206,6 @@ def main():
 
 main()
 ```
+This is an example of me noting down my maths homework as a task and then recalling it to help me remember.
+<img width="111" height="97" alt="{4B0DDB43-31BF-4DBF-9F04-C600A585F8DD}" src="https://github.com/user-attachments/assets/b9199a68-b9d9-4fc7-963d-4a41cb5d4f5e" />
+

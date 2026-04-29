@@ -63,7 +63,7 @@ This portfolio documents my progress through a Python programming course designe
 - **Email:** 26boynef@bscmail.org
 
 ## Unit converter
-This is the first project I did which converts units.
+This is the first project I did which converts units. It can convert Kilometers to Miles as well as Celsius to Farehnheit and the other way round. It is very useful when travelling countries if the road signs or temperature reading are in a different measurement.
 ```python
 def km_to_miles(km):
     """Convert kilometres to miles."""

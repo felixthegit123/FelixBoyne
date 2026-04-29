@@ -209,3 +209,52 @@ main()
 This is an example of me noting down my maths homework as a task and then recalling it to help me remember.
 <img width="111" height="97" alt="{4B0DDB43-31BF-4DBF-9F04-C600A585F8DD}" src="https://github.com/user-attachments/assets/b9199a68-b9d9-4fc7-963d-4a41cb5d4f5e" />
 
+## Grade calculator
+This is a grade calculator which let me put all of my results into the system which then gave me my average grade so I can see what I am working to across multiple subjects.
+def get_grade(average):
+    """Return a letter grade based on average percentage."""
+    if average >= 70:
+        return "A"
+    elif average >= 60:
+        return "B"
+    elif average >= 50:
+        return "C"
+    elif average >= 40:
+        return "D"
+    else:
+        return "U"
+
+def get_valid_score(subject):
+    """Ask for a score and keep asking until a valid number is entered."""
+    while True:
+        try:
+            score = float(input(f"Enter score for {subject} (0-100): "))
+            if 0 <= score <= 100:
+                return score
+            else:
+                print("Score must be between 0 and 100.")
+        except ValueError:
+            print("Please enter a number.")
+
+def calculate_results():
+     """Collect scores and display results."""
+     name = input("Student name: ")
+     subjects = ["Maths", "English", "Science"]
+     scores = {}
+    
+     for subject in subjects:
+        scores[subject] = get_valid_score(subject)
+    
+     average = sum(scores.values()) / len(scores)
+     grade = get_grade(average)
+    
+     print(f"\n=== Results for {name} ===")
+     for subject, score in scores.items():
+        print(f"  {subject}: {score:.1f}")
+     print(f"Average: {average:.1f}%")
+     print(f"Grade: {grade}")
+
+calculate_results()
+Here is an example of me putting 3 grades in which are all different and the system giving me a B grade overall.
+<img width="137" height="85" alt="{447BA7F4-B2FB-49F6-B742-B8F5435E8672}" src="https://github.com/user-attachments/assets/4a7678fa-2936-4494-84ff-a48299c61a01" />
+

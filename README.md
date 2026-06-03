@@ -334,4 +334,61 @@ main()
 This is a picture showing how the account organiser keeps track of my finances.
 <img width="106" height="88" alt="{6A9ADC79-756F-4C89-9A2B-A28D5D07F7A4}" src="https://github.com/user-attachments/assets/3896837d-a838-46c4-80e4-765cc638a924" />
 
-## Data analysis notebook
+## Contact Book
+This is a contact book which is usefull because it helps me keep all of my contacts organised and I can access them easily.
+
+import os
+
+FILENAME = "contacts.txt"
+
+def load_contacts():
+    """Load contacts from file. Return empty list if file doesn't exist."""
+    contacts = []
+    if os.path.exists(FILENAME):
+        with open(FILENAME, "r") as f:
+            for line in f:
+                parts = line.strip().split(",")
+                if len(parts) == 2:
+                    contacts.append({"name": parts[0], "phone": parts[1]})
+    return contacts
+
+def save_contacts(contacts):
+    """Save all contacts to file."""
+    with open(FILENAME, "w") as f:
+        for c in contacts:
+            f.write(f"{c['name']},{c['phone']}\n")
+    print("Contacts saved.")
+
+def add_contact(contacts):
+    name = input("Name: ")
+    phone = input("Phone: ")
+    contacts.append({"name": name, "phone": phone})
+    save_contacts(contacts)
+
+def view_contacts(contacts):
+    if not contacts:
+        print("No contacts saved.")
+        return
+    print("\n=== Contacts ===")
+    for i, c in enumerate(contacts, 1):
+        print(f"{i}. {c['name']} — {c['phone']}")
+
+def main():
+    contacts = load_contacts()
+    print(f"Loaded {len(contacts)} contact(s).")
+    
+    while True:
+        print("\n1. View contacts  2. Add contact  3. Exit")
+        choice = input("Choose: ")
+        if choice == "1":
+            view_contacts(contacts)
+        elif choice == "2":
+            add_contact(contacts)
+        elif choice == "3":
+            break
+
+main()
+
+This is a picture of the final outcome showing that it works and contacts can be stored easily.
+<img width="136" height="67" alt="{4AB60C1B-44A2-45F0-A574-BF7085F7126D}" src="https://github.com/user-attachments/assets/e42cde91-271d-494d-8ff9-b1e05244104c" />
+

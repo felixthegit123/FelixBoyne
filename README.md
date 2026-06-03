@@ -37,7 +37,7 @@ This portfolio documents my progress through a Python programming course designe
 | 3 | [To-Do List](#) | List, functions, data structures | ✅complete |
 | 4 | [Student Grade Calculator](#) | Dictionaries, validation, error handling | ✅ Complete |
 | 5 | [OOP Bank Account](#) | Classes, OOP principles | ✅ Complete |
-| 6 | [Data Analysis Notebook](#) | Jupyter Notebooks, data exploration | ✅ Complete |
+| 6 | [Contact Book](#) | Jupyter Notebooks, data exploration | ✅ Complete |
 
 ---
 

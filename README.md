@@ -64,6 +64,7 @@ This portfolio documents my progress through a Python programming course designe
 
 ## Unit converter
 This is the first project I did which converts units. It can convert Kilometers to Miles as well as Celsius to Farehnheit and the other way round. It is very useful when travelling countries if the road signs or temperature reading are in a different measurement.
+
 ```python
 def km_to_miles(km):
     """Convert kilometres to miles."""
@@ -125,6 +126,7 @@ This image shows the result of the code.
 
 ## Number guessing game
 This is a game where you can guess a random number between 1 and 100 which can be used to have some fun with you friends to see who guesses first.
+
 ```python 
 import random
 
@@ -149,11 +151,13 @@ def play_game():
 
 play_game()
 ```
+
 This is a picture from the result of the guessing game which took me 5 tries.
 <img width="164" height="88" alt="{68B067E3-FA08-4542-A03D-6FAA10E7BABC}" src="https://github.com/user-attachments/assets/8034dfbc-7600-46b5-83c2-6a996af18fef" />
 
 ## To-do list manager
 I created a to-do list because it was useful for me to remember what I have to do and it is very quick and easy to add and remove tasks to the list.
+
 ```python 
 def show_tasks(tasks):
     """Display all tasks with their numbers."""

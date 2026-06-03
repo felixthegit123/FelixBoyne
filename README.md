@@ -216,6 +216,7 @@ This is an example of me noting down my maths homework as a task and then recall
 ## Grade calculator
 This is a grade calculator which let me put all of my results into the system which then gave me my average grade so I can see what I am working to across multiple subjects.
 
+```python 
 def get_grade(average):
 """Return a letter grade based on average percentage."""
     if average >= 70:
@@ -258,6 +259,7 @@ def calculate_results():
         print(f"  {subject}: {score:.1f}")
      print(f"Average: {average:.1f}%")
      print(f"Grade: {grade}")
+```
 
 calculate_results()
 Here is an example of me putting 3 grades in which are all different and the system giving me a B grade overall.
@@ -265,6 +267,8 @@ Here is an example of me putting 3 grades in which are all different and the sys
 ## Bank account organiser
 This helps me keep my bank balance in check and it is easy to note if I deposit or withdraw money.
 class BankAccount:
+
+```python 
     """A simple bank account class."""
     
     def __init__(self, owner, initial_balance=0):
@@ -335,12 +339,15 @@ class BankAccount:
                 break
 
 main()
+```
+
 This is a picture showing how the account organiser keeps track of my finances.
 <img width="106" height="88" alt="{6A9ADC79-756F-4C89-9A2B-A28D5D07F7A4}" src="https://github.com/user-attachments/assets/3896837d-a838-46c4-80e4-765cc638a924" />
 
 ## Contact Book
 This is a contact book which is usefull because it helps me keep all of my contacts organised and I can access them easily.
 
+```python 
 import os
 
 FILENAME = "contacts.txt"
@@ -392,6 +399,7 @@ def main():
             break
 
 main()
+```
 
 This is a picture of the final outcome showing that it works and contacts can be stored easily.
 <img width="136" height="67" alt="{4AB60C1B-44A2-45F0-A574-BF7085F7126D}" src="https://github.com/user-attachments/assets/e42cde91-271d-494d-8ff9-b1e05244104c" />

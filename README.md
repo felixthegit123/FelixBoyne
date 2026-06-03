@@ -333,3 +333,5 @@ class BankAccount:
 main()
 This is a picture showing how the account organiser keeps track of my finances.
 <img width="106" height="88" alt="{6A9ADC79-756F-4C89-9A2B-A28D5D07F7A4}" src="https://github.com/user-attachments/assets/3896837d-a838-46c4-80e4-765cc638a924" />
+
+## Data analysis notebook

@@ -34,7 +34,7 @@ This portfolio documents my progress through a Python programming course designe
 |---|---|---|---|
 | 1 | [Unit Converter](#Unit-Converter) | Variables, functions, input/output | ✅ Complete |
 | 2 | [Number Guessing Game](#Number-Guessing-Game) | Loops, conditionals, random | ✅Complete |
-| 3 | [To-Do List](#To-Do-List) | List, functions, data structures | ✅complete |
+| 3 | [To-Do List](#To-do-list-manager) | List, functions, data structures | ✅complete |
 | 4 | [Student Grade Calculator](#Grade-calculator) | Dictionaries, validation, error handling | ✅ Complete |
 | 5 | [OOP Bank Account](#Bank-account-organiser) | Classes, OOP principles | ✅ Complete |
 | 6 | [Contact Book](#Contact-Book) | Jupyter Notebooks, data exploration | ✅ Complete |

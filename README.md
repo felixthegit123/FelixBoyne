@@ -55,14 +55,14 @@ This portfolio documents my progress through a Python programming course designe
 - Markdown for documentation
 
 ---
-[About me](#Top)
+[About-me](#Top)
 ## Contact
 
 - **GitHub:** felixthegit123
 - **Email:** 26boynef@bscmail.org
 
 ## Unit converter 
-[About-me](#About-me)
+[Top](#About-me)
 This is the first project I did which converts units. It can convert Kilometers to Miles as well as Celsius to Farehnheit and the other way round. It is very useful when travelling countries if the road signs or temperature reading are in a different measurement.
 
 ```python

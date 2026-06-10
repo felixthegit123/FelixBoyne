@@ -55,7 +55,7 @@ This portfolio documents my progress through a Python programming course designe
 - Markdown for documentation
 
 ---
-[About me](#About-me)
+[About me](#Top)
 ## Contact
 
 - **GitHub:** felixthegit123

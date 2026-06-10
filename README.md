@@ -56,7 +56,7 @@ This portfolio documents my progress through a Python programming course designe
 - Markdown for documentation
 
 ---
-
+[home](#home)
 ## Contact
 
 - **GitHub:** felixthegit123
@@ -214,7 +214,6 @@ This is an example of me noting down my maths homework as a task and then recall
 <img width="111" height="97" alt="{4B0DDB43-31BF-4DBF-9F04-C600A585F8DD}" src="https://github.com/user-attachments/assets/b9199a68-b9d9-4fc7-963d-4a41cb5d4f5e" />
 
 ## Grade calculator
-(#|home)
 This is a grade calculator which let me put all of my results into the system which then gave me my average grade so I can see what I am working to across multiple subjects.
 
 ```python 

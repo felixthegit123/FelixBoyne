@@ -62,7 +62,8 @@ This portfolio documents my progress through a Python programming course designe
 - **GitHub:** felixthegit123
 - **Email:** 26boynef@bscmail.org
 
-## Unit converter | Home
+## Unit converter 
+[home](#home)
 This is the first project I did which converts units. It can convert Kilometers to Miles as well as Celsius to Farehnheit and the other way round. It is very useful when travelling countries if the road signs or temperature reading are in a different measurement.
 
 ```python
@@ -216,6 +217,7 @@ This is an example of me noting down my maths homework as a task and then recall
 <img width="111" height="97" alt="{4B0DDB43-31BF-4DBF-9F04-C600A585F8DD}" src="https://github.com/user-attachments/assets/b9199a68-b9d9-4fc7-963d-4a41cb5d4f5e" />
 
 ## Grade calculator
+[home](#home)
 This is a grade calculator which let me put all of my results into the system which then gave me my average grade so I can see what I am working to across multiple subjects.
 
 ```python 
@@ -267,6 +269,7 @@ calculate_results()
 Here is an example of me putting 3 grades in which are all different and the system giving me a B grade overall.
 <img width="137" height="85" alt="{447BA7F4-B2FB-49F6-B742-B8F5435E8672}" src="https://github.com/user-attachments/assets/4a7678fa-2936-4494-84ff-a48299c61a01" />
 ## Bank account organiser
+[home](#home)
 This helps me keep my bank balance in check and it is easy to note if I deposit or withdraw money.
 class BankAccount:
 
@@ -347,6 +350,7 @@ This is a picture showing how the account organiser keeps track of my finances.
 <img width="106" height="88" alt="{6A9ADC79-756F-4C89-9A2B-A28D5D07F7A4}" src="https://github.com/user-attachments/assets/3896837d-a838-46c4-80e4-765cc638a924" />
 
 ## Contact Book
+[home](#home)
 This is a contact book which is usefull because it helps me keep all of my contacts organised and I can access them easily.
 
 ```python 
